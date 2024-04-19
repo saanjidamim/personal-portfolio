@@ -132,3 +132,46 @@ section{
     color: #757575;
 }
 /* Resume styles */
+.resume-content{
+    display: flex;
+}
+.resume.title{
+    font-weight:700 ;
+    font-size: 25px;
+    color: #474747;
+
+    
+}
+.resume.sub-title{
+    
+    font-weight:600 ;
+    font-size:20px ;
+    color: #757575; 
+}
+.resume.description{
+    color: #757575; 
+
+}
+/* contact styles */
+.contact{
+     display: flex;
+     gap: 100px;
+     background: #FFF8F3;
+     padding: 130px 200px;
+}
+.contact.section-title{
+     text-align: right;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding-left: 18px 30px;
+
+}
+input{
+    height: 64px;
+}
+.contact{
+    text-decoration: none; 
+}
